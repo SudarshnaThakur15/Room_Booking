@@ -1,0 +1,250 @@
+/* font-family: 'Bitter', serif;
+font-family: 'Black Ops One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive; */
+
+.navbar
+{
+  background-color: rgba(4, 4, 72, 0.163);
+  z-index: 10;
+  color:antiquewhite;
+  font-family: 'Dancing Script', cursive;
+}
+
+.nav-link
+{
+  color: rgb(234, 126, 137);
+  font-family: 'Bitter', serif;
+  font-size: 1.4rem;
+  text-decoration: none;
+  /* margin-left: 60%; */
+}
+
+.navbar-brand
+{
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow:2px 1px 5px rgb(251, 0, 0), 2px 1px 15px rgb(100, 2, 2);
+  text-decoration: none;
+  /* border:solid 5px #010d30; */
+  font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand.hover
+{
+  color: rgb(255, 255, 255);
+}
+
+.navbar-nav
+{
+  margin-left: 55rem;
+}
+
+.btnnavbar
+{
+  border-style: none;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255) ;
+  background-color: transparent;
+  text-shadow:2px 1px 5px rgb(142, 205, 240), 2px 1px 15px rgb(10, 2, 100);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dropdown-menu
+{
+  background-color: #0c152d6d;
+}
+
+.dropdown-item
+{
+  color: white;
+  letter-spacing: 1px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn
+{
+  border-color: rgb(214, 169, 184);
+  color: rgb(255, 255, 255) ;
+}
+
+.btn2
+{
+  border:solid  rgb(184, 179, 232);
+  color: rgb(230, 250, 253) ;
+  background-color: #16162000;
+  font-size: 1.5rem;
+  border-radius: 3px;
+  /* padding: 0.5rem; */
+}
+
+/* .card
+{
+    display: inline-block;
+    border-color: red;
+    padding: 3px;
+    background-color: aquamarine;
+    height:5rem;
+} */
+
+.bimg
+{
+  width: 28rem;
+  height: 28rem;
+  /* margin-right:12rem ; */
+  color: rgb(7, 0, 4);
+  border:solid #fbfbfb 1px;
+  border-radius: 2px;
+  /* box-shadow: 1px 2px 5px  #740235 ,2px 2px 20px #eb6d88; */
+}
+
+.simg
+{
+  width: 18rem;
+  height: 15rem;
+  border-radius:none;
+  /* border-radius: 2px; */
+  border-color: rgb(255, 255, 255);
+  border-width: 4px;
+  box-shadow: 0px 0px 5px  #0c152d ,7px 15px 20px #727ea1;
+}
+
+/* .eachimgcol
+{
+    margin:0%  
+} */
+
+.eachcol
+{
+  margin-left: 0%;
+  text-align: left;
+  font-size:1rem;
+  flex: content;
+}
+
+/* booking room column */
+
+.eachcolBooking
+{
+  margin-left: 0%;
+  text-align: left;
+  font-size:1rem;
+  flex: content;
+  font-family: 'Bitter', serif;
+}
+
+.eachrow
+{
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-left: 0%;
+  color: rgb(7, 0, 4);
+  border:solid #ffffff 1px;
+  border-radius: 2px;
+  box-shadow: 2px 2px  #5c51be, 0px 3px 15px rgb(28, 28, 118);
+}
+
+.wholeroomcardpage
+{
+  background: linear-gradient(to right, #dddde588, #e8e7ec);
+}
+
+/* bookingpage each row */
+
+.eachrowBookingpage
+{
+  background: linear-gradient(to bottom, #341ca8fd,#1d06838a );
+  padding: 2rem;
+  /* margin-top: 2rem; */
+  margin-left: 0%;
+  margin-bottom: 0%;
+  color: rgb(232, 232, 232);
+  border:solid #ffffff 1px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px  #99ace0 ,7px 1px 7px #b1c4f8;
+}
+
+.bookingpage{
+  padding-top: 1rem;
+  padding-bottom: 4.5rem;
+}
+
+.bookButton
+{
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+  box-shadow: 0px 0px 5px  #0c152d ,7px 15px 20px #727ea1;
+  color: rgb(8, 3, 59) ;
+  font-weight: 900;
+  float: right;
+  margin: 4px;
+  /* padding: 2px; */
+}
+
+.cancelButton
+{
+  /* border-color: rgb(255, 255, 255); */
+  background-color: transparent;
+  border-radius: 2px;
+  border-width: 1px;
+  box-shadow: 0px 0px 5px  #010d30 ,7px 15px 20px #727ea1;
+  color: rgb(3, 2, 12) ;
+  font-weight: 900;
+  float: right;
+  margin: 4px;
+  padding: 5px;
+}
+
+span{
+  font-size:1.3rem;
+  font-weight: 400;
+  font-family: 'Bitter', serif;
+}
+
+/* @keyframes fontcolor {
+    0%   {color: rgb(244, 37, 40);}
+    25%  {color: rgb(244, 35, 37);}
+    100% {color: rgb(244, 33, 37);}
+    50%  {color: rgb(244, 30, 37);}
+  } */
+
+/*  
+  .bigimg
+  {
+    height: 500px;
+  } */
+
+.bigimg
+  {
+  height: 300px;
+}
+
+.loadicon
+  {
+  margin:auto;
+}
+
+.Modal
+  {
+  background: linear-gradient(to right, #863363, #000000);
+  color: pink;
+}
+
+/* //for fropdown */
+
+.boxs
+  {
+  box-shadow: 0px 0px 5px  #0c152d ,7px 15px 20px #727ea1;
+  background-color: #010d30;
+}
+
+.navbaroutline
+  {
+  /* border-bottom: solid pink 1px; */
+  color: rgb(255, 255, 255);
+  /* border-color:"pink";
+    border-width:1px;
+    border-style: solid; */
+}

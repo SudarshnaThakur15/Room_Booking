@@ -1,0 +1,44 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #24c9ee, #7c36d8, #36aedd, #020f5d);
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #1e1b37,#1f1b56 );
+    
+  }
+  .gradient-custom-1
+  {
+    background: linear-gradient(to right, #290118, #250551);
+    color: rgb(255, 255, 255);
+  }
+  
+  @media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+  }
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
+  .image1
+  {
+    border: 2px;
+    border-radius: 20%;
+    
+  }
+  .p{
+    color: #ee0965;
+  }
+  .btn1
+  {
+    color:#3a0217;
+  
+    background: linear-gradient(to right, #1f0c17, #030002);
+    
+  }

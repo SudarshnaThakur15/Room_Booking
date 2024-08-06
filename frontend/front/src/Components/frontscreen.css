@@ -1,0 +1,169 @@
+.heightofcarouselimage
+{
+    /* background-color: black; */
+    height:50rem;
+    width: 100%;
+    margin-top:-6.3rem;
+    /* position: absolute; */
+    /* z-index: -1; */
+}
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.carousel-control-next
+{
+     display: none; 
+}
+.carousel-control-prev
+{
+     display: none; 
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #EEE;
+}
+.color
+{
+    color: rgb(8, 8, 50);
+}
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.size
+{
+    /* background: linear-gradient(to right,#0f0019f9 );
+     */background-color: black;
+     color: wheat;
+    height :25rem;
+    width: 25rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    flex: content;
+    margin-left: 3rem;
+    border-color: white;
+    box-shadow:  0px 0px 14px rgb(124, 164, 220) ;
+    
+   
+}
+.cardfrontscreen
+{
+    /* background: linear-gradient(to right, #0d0b10,#16013f41 ,#06020ffb); */
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.heading
+{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive; 
+    font-weight: 900;
+    font-size: 3rem;
+}
+.btnfrontscreen
+{
+    /* background: linear-gradient(to right, #7a9af0f7,#140a9bf9 ); */
+    background-color: transparent;
+    color: rgba(91, 91, 177, 0.616);
+  border-radius: 6%;
+    padding: 8px 8px;
+    border-color: rgb(37, 3, 85) ;
+    border-width: 1px;
+    /* box-shadow: 0px 2px 14px rgb(8, 44, 173), 0px 4px 13px rgb(124, 164, 220) ; */
+    margin-top: 2rem;
+    font-family: 'Black Ops One', cursive;
+}
+.heading2
+{
+    font-family: 'Lobster', cursive; 
+    background: linear-gradient(to right, #12032c47,#12025944 );
+    font-weight: 900;
+    font-size: 5rem;
+    text-shadow:10px 2px 14px rgb(250, 60, 60) ;
+    /* background-color: rgba(24, 12, 117, 0.241); */
+}
+.height
+{
+    background: linear-gradient(to right, #12032c47,#12025944 );
+    image-resolution: 2048p;
+    /* text-shadow:10px 2px 14px rgb(173, 8, 8) ; */
+}
+.heading3
+{
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Lobster', cursive; 
+    font-weight: 900;
+    font-size: 3rem;
+    text-shadow:4px 2px 14px rgb(14, 1, 152) ;
+    /* background-color: rgba(237, 226, 175, 0.571) */
+    background: linear-gradient(to right, #12032c47,#12025944 );
+    border-radius: 2px;
+}
+.p1{
+    font-family: 'Bitter', serif;
+    background: linear-gradient(to right, #00283847,#0f001944 );
+}
+.maincrousel
+{
+    
+    /* padding-left: 2rem; */
+    /* padding-right: 2rem; */
+    /* margin-top: 2px; */
+    padding: 5px;
+    /* padding-bottom: 6px; */
+    /* border-bottom: solid; */
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    border-color:  #ffffff;
+    box-shadow: 0px 3px 15px rgb(165, 165, 214), 0px 4px 18px rgb(0, 0, 52);
+    /* border-style: double; */
+    border-radius: 1px;
+}
+.test{
+color:rgb(182, 41, 88);}
+
+.footerstyle
+{
+    background: linear-gradient(to right, #a81036bc,#12025996 );
+}
+.textofregisterpage
+{
+    font-family: 'Bitter', serif;
+    text-decoration:dashed;
+    text-shadow:  0px 3px 15px rgb(165, 165, 214), 0px 4px 18px rgb(97, 2, 15) ;
+    line-height:20px;
+}
+
+.bookingshowcard
+{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-right: 5px;
+    color: rgb(3, 3, 21);
+    text-align: left;
+}
+.card1
+{
+    border: solid 2px rgb(221, 221, 243);
+    background: linear-gradient(to right, #f28aa4,#937cfa44 );
+    
+}
