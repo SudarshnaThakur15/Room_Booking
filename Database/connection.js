@@ -1,6 +1,6 @@
 
 const mongoose =require('mongoose');
-mongoose.connect("mongodb://127.0.0.1:27017/roomBookingdb",{useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://Sudarshna:@cluster0.umpoorn.mongodb.net/roomBookingdb",{useNewUrlParser: true, useUnifiedTopology: true});
 var connection=mongoose.connection;
 connection.on('error',()=>
 {
@@ -13,12 +13,3 @@ connection.on('connected',()=>
         
    
 module.exports={mongoose};
-// async function con() {
-//   try {
-//       await mongoose.connect("mongodb://127.0.0.1:27017/roomBookingdb");
-//       // console.log(await db.Employee.find({}));
-//       console.log("success");
-//     } catch (error) {
-//       console.log(error);
-//     }
-// }
